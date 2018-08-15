@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Pyhy4jsS7muZBUIzHHhTDuC7WlNb+X0G60qBwp4TkP1RDmE6SlbpayEKC6xfKMDPyEWopsYfksc/Su2KFqX4cPetUu4FDqvMVG7h5nvaHFvWNNOs3p2XE9tpzy5dVgu4jXqmvFk8KHVWC1Z0GqA99J6eSHLhWl3hQV0hzUY9RmvT4LsEtrfB/ScH4ETeQ8a6d4ZSffS3CS7P5biCNrXhJS70Y9GTUe9cXFMbkGBO7dYUHLucdB7KwQwl/wHFRgBr7iFsOd6aqCraZYPvnK/AzfIfzXE4G+xdxKldSP7SL2zi5q+EsM5NM085/qMgUMBlZjwZa88M+5ryj8asgxBbQ33wyhmLQ8VpbC/Xu8iHq43PrciCXc4W0sG0KMmwew0m3Et8cDND29Ds6MY2wgJyc2mHhKMUt0Eg3ioxvuByvEvC9IwJnDIP+b9M93l26cjdGv8kP9kqXjYBPMoEKlH4yZ9wFF4LjBRnr5kAzIZqTxe2/mZbgkB6pAIlYSO4jdSQx88naX5OUec91oKFQVAXZBTX9tWou7xAD06/eqFCAv7rih4+xifIHrM0NuayD+gbRr7MWwEVgAAr0TAXNaiedHcX4BjiIxk475CJOLxj5h4FwMke0Ycpq2MznksqazOStt55WP36ndL/ATclNpY8bi+ouisLT5b1K0X2jMlrt6M=
+  app: https://shrouded-sierra-13542.herokuapp.com/
+  on:
+    repo: khriskempis/node-shopping-list-integration-tests
+    branch: tests-for-recipes
